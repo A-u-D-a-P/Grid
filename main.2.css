@@ -1,0 +1,121 @@
+body {
+  display: grid;
+  grid-template-areas:
+   'one two four seven eleven seventeen'
+   'one two four seven eleven eightteen'
+   'one two four seven twelve nineteen'
+   'one two four eight twelve twenty'
+   'one two five eight thirteen twenty-one'
+   'one two five eight thirteen twenty-two'
+   'one three five nine fourteen twenty-three'
+   'one three five nine fourteen twenty-four'
+   'one three six nine fiveteen twenty-five'
+   'one three six ten fiveteen twenty-six'
+   'one three six ten sixteen twenty-seven'
+   'one three six ten sixteen twenty-eight';
+   
+    
+  /* grid-template-columns: repeat(6, 245px); */
+  grid-template-rows: repeat(12, auto);
+  gap: 5px;
+  margin: 5 auto;
+  font-family: sans-serif;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  font-size: 17.105px;
+  color: #fff;
+  background-color: #9acd32;
+  align-items: center;
+}
+
+.item1 {
+  grid-area: one;
+}
+
+.item2 {
+  grid-area: two;
+}
+.item3 {
+  grid-area: three;
+}
+
+.item4 {
+  grid-area: four;
+}
+.item5 {
+  grid-area: five;
+}
+.item6 {
+  grid-area: six;
+}
+.item7 {
+  grid-area: seven;
+}
+.item8 {
+  grid-area: eight;
+}
+.item9 {
+  grid-area: nine;
+}
+.item10 {
+  grid-area: ten;
+}
+.item11 {
+  grid-area: eleven;
+}
+.item12 {
+  grid-area: twelve;
+}
+.item13 {
+  grid-area: thirteen;
+}
+.item14 {
+  grid-area: fourteen;
+}
+.item15 {
+  grid-area: fiveteen;
+}
+.item16 {
+  grid-area: sixteen;
+}
+
+.item17 {
+   grid-area: seventeen;
+}
+.item18 {
+   grid-area: eightteen;
+}
+.item19 {
+   grid-area: nineteen;
+}
+.item20 {
+   grid-area: twenty;
+}
+.item21 {
+   grid-area: twenty-one;
+}
+.item22 {
+   grid-area: twenty-two;
+}
+.item23 {
+   grid-area: twenty-three;
+}
+.item24 {
+   grid-area: twenty-four;
+}
+.item25 {
+   grid-area: twenty-five;
+}
+.item26 {
+   grid-area: twenty-six;
+}
+.item27 {
+   grid-area: twenty-seven;
+}
+.item28 {
+   grid-area: twenty-eight;
+}
+
